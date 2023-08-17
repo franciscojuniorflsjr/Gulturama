@@ -34,9 +34,7 @@
     flex-grow: 1;
     max-width: 400px;
 }
-.agenda__container{
-    display: flex;
-}
+
 
 .agenda__lista{
     display: flex;
