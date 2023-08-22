@@ -41,6 +41,7 @@
 
 .eventos__item h3 {
     grid-area: nome;
+    align-self: center;
 }
 
 .eventos__item h4 {
@@ -49,6 +50,7 @@
 
 .eventos__item h5 {
     grid-area: local;
+    align-self: flex-end;
 }
 
 .eventos__item button {
