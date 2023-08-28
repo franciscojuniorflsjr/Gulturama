@@ -112,6 +112,10 @@
     "titulo titulo"
     "lista destaque"
     "lista imagem";
+    row-gap: 1rem;
+    column-gap: 1.5rem;
+    grid-template-columns: cal(50% - 0.75rem);
+    grid-template-rows: auto 1fr auto;
 }
 
 .categorias__titulo {
@@ -123,6 +127,13 @@
 }
 
 .categorias__destaque {
-    .categorias__list
+    grid-area: destaque;
 }
+
+.categorias__imagem {
+    grid-area: destaque;
+}
+
+
+
 }
